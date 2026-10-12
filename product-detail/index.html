@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alexander McQueen Product Detail — YONG IL Portfolio</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#111}
+  body{font-family:Arial,"Noto Sans KR",sans-serif}
+  .detail-page{
+    width:min(1200px,100%);
+    margin:0 auto;
+    background:#fff;
+    line-height:0;
+    overflow:hidden;
+  }
+  .detail-page img{
+    display:block;
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+    border:0;
+  }
+  .back{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    z-index:20;
+    display:grid;
+    place-items:center;
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    background:rgba(17,17,17,.86);
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+    line-height:1;
+    backdrop-filter:blur(8px);
+  }
+  .back:hover{background:#806cff}
+  @media(max-width:700px){
+    .back{width:44px;height:44px;right:12px;bottom:12px;font-size:16px}
+  }
+</style>
+</head>
+<body>
+<main class="detail-page" aria-label="Alexander McQueen product detail page">
+  <img src="images/01.jpg" alt="Alexander McQueen 상세페이지 1">
+  <img src="images/02.gif" alt="Alexander McQueen 상세페이지 애니메이션 2">
+  <img src="images/03.jpg" alt="Alexander McQueen 상세페이지 3">
+  <img src="images/04.jpg" alt="Alexander McQueen 상세페이지 4">
+  <img src="images/05.jpg" alt="Alexander McQueen 상세페이지 5">
+</main>
+<a class="back" href="../index.html#projects" aria-label="포트폴리오로 돌아가기">←</a>
+</body>
+</html>
